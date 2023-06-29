@@ -1,0 +1,9 @@
+.game-details-holder-title {
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #7b7b7b
+}

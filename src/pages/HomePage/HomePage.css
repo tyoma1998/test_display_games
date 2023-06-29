@@ -1,0 +1,43 @@
+.home-holder-card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 30px;
+}
+
+.home-holder-button-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.home-button-more {
+    font: inherit;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 12px 14px;
+    color: #ffffff;
+    background-color: #9555af;
+}
+
+.home-button-more:hover { background-color: #af55a6; }
+
+.home-button-more:active {
+    background-color: #9555af;
+  }
+
+  .home-emty-page {
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: #7c7b7b;
+  }

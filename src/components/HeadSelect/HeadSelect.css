@@ -1,0 +1,11 @@
+.head-select-label {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    font-size: 16px;
+}
+
+.head-select-holder {
+    padding: 4px;
+    font-size: 14px;
+}
